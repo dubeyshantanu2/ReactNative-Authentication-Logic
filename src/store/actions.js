@@ -26,7 +26,7 @@ export const Login = (otp, details) => {
         let token = null;
         axios({
             method: "post",
-            url: 'http://192.168.18.9:3000/otp/verify',
+            url: 'http://youripaddress:3000/otp/verify',
             data: {
                 userOtp: otp,
                 encryptedString: details,
