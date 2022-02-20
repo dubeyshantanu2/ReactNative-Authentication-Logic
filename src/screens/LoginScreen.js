@@ -19,7 +19,7 @@ export default function LoginScreen({ navigation }) {
         // const details = "";
         axios({
             method: "post",
-            url: 'http://192.168.18.9:3000/otp/generate',
+            url: 'http://youripaddress:3000/otp/generate',
             data: {
                 number: mobile,
             },
